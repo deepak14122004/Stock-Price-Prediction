@@ -1,10 +1,13 @@
 **Stock Price Prediction using Bidirectional LSTM**
+
 This project focuses on predicting stock prices using a Bidirectional Long Short-Term Memory (LSTM) model. The model leverages historical stock data, including moving averages, to predict future stock prices. The repository contains code, data preprocessing steps, and evaluation metrics for the predictive model.
 
 **Project Overview**
+
 This project utilizes a Bidirectional LSTM model to predict future stock prices based on historical data. Moving averages of different periods are used to capture trends, and the model is trained to forecast the closing prices. The project aims to demonstrate the effectiveness of deep learning in time series forecasting.
 
 **Dataset**
+
 The dataset consists of historical stock prices for a company, which includes the following columns:
 
 Date: The date of the stock price
@@ -29,6 +32,7 @@ MA_50: 50-day moving average
 MA_100: 100-day moving average
 
 **Model Architecture**
+
 The model is built using a Bidirectional LSTM with the following structure:
 
 Layer 1: Bidirectional LSTM (50 units) with return sequences
