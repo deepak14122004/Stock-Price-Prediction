@@ -37,8 +37,10 @@ The model is built using a Bidirectional LSTM with the following structure:
 
 Layer 1: Bidirectional LSTM (50 units) with return sequences
 Dropout: 20% to prevent overfitting
+
 Layer 2: Bidirectional LSTM (50 units) without return sequences
 Dropout: 20%
+
 Output Layer: Dense layer with 1 unit to predict the closing price
 The model is trained using the Adam optimizer and the mean squared error loss function.
 
